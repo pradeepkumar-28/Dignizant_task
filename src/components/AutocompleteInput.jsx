@@ -11,6 +11,7 @@ export default function ComboBox({ data, generateRatingIcons }) {
     <Autocomplete
       id="combo-box-demo"
       options={data}
+      freeSolo
       sx={{ width: 450 }}
       getOptionLabel={(option) => option.label}
       open={open}
