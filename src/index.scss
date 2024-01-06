@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  flex-wrap: wrap;
+}
+
+.options_box {
+  margin: 25px;
+
+  .option_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title,
+    .category {
+
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .category {
+      opacity: 0.5;
+    }
+  }
+
+
+}
